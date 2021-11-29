@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Key Returns</title>
+</head>
+
+<body class="">
+    <div class="header">
+        <h2>Let's bash some keys!</h2>
+    </div>
+    <div class="mainbody">
+        <!-- create a main box to contain all boxes which return values -->
+        <div class="mainbox">
+            <!-- box with command to type, but no value -->
+            <div id="mainboxText">
+                <h1>Type any key</h1>
+            </div>
+            <!-- where the key's value will be returned -->
+            <p id="mainboxNumber"></p>
+        </div>
+        <!-- similar smaller boxes to contain all the separate event values -->
+        <div class="smallerBoxes">
+            <div class="eventKey">
+                <div id="keyText">
+                    <h3>This is the key you pressed:</h3>
+                </div>
+                <div id="keyValue"> Key letter</div>
+            </div>
+            <div class="eventWhich">
+                <div id="eventWhichText">
+                    <h3>Number:</h3>
+                </div>
+                <div id="whichNumber"> This is the number of your key </div>
+            </div>
+            <div class="keyCode">
+                <div id="keyCodeText">
+                    <h3>This is the Code:</h3>
+                </div>
+                <div id="keyCodevalue"> This is the code of your key</div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>Anastasia Panoutsou</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
