@@ -64,9 +64,10 @@ smaller boxes in second row styles */
 }
 
 /* individual box styling */
-.eventKey,
-.keyCode,
-.eventWhich {
+#eventKey,
+#keyCode,
+#eventWhich {
+  display: none;
   width: 280px;
   border-style: solid;
   border-color: grey;
