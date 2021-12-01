@@ -89,3 +89,12 @@ smaller boxes in second row styles */
 .footer {
   font-size: 15px;
 }
+
+@media only screen and (max-width: 480px) {
+  .smallerBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
